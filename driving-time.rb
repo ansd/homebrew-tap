@@ -1,13 +1,13 @@
 class DrivingTime < Formula
   desc 'Driving Time with Live Traffic Data'
   homepage 'https://github.com/ansd/driving-time'
-  version '0.3.0'
+  version '0.4.0'
   if OS.mac?
     url "https://github.com/ansd/driving-time/releases/download/v#{version}/driving-time-#{version}-darwin-amd64"
-    sha256 'a41c972cb1600959ee6569c8736c783f0de8521baba6516cb9c9eb08d170918a'
+    sha256 '13599ae0fa7dbc3cbd39aa67e4f6ea2ce001d4e9d5fd8ca9caa30f5734dd3f4f'
   elsif OS.linux?
     url "https://github.com/ansd/driving-time/releases/download/v#{version}/driving-time-#{version}-linux-amd64"
-    sha256 '564fa5b51ee3eae814d860eb0d5d82eb5e6e2525423c513defc9e24f47371480'
+    sha256 '0d72e497a9df00eeca884fe61054673683ea25fcfe568293c24d83a1ef005ed5'
   end
 
   depends_on :arch => :x86_64
